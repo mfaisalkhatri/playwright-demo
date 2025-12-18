@@ -67,12 +67,14 @@ export default defineConfig({
       name: "chrome:latest:MacOS Ventura@lambdatest",
       use: {
         viewport: { width: 1920, height: 1080 },
+        baseURL: "https://ecommerce-playground.lambdatest.io/",
       },
     },
     {
       name: "chrome:latest:Windows 11@lambdatest",
       use: {
         viewport: { width: 1280, height: 720 },
+        baseURL: "https://ecommerce-playground.lambdatest.io/",
       },
     },
     /* Test against mobile viewports. */
